@@ -21,3 +21,17 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+let button = document.querySelector('.button-3')
+
+button.addEventListener('click', ()=>{
+  document.documentElement.classList.toggle('dark-mode')
+})
+
+function change() // no ';' here
+{
+    var elem = document.getElementById("button-3");
+    if (elem.value=="Dark mode") elem.value = "Light mode";
+    else elem.value = "Dark mode";
+}
+
