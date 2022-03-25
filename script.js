@@ -28,10 +28,17 @@ button.addEventListener('click', ()=>{
   document.documentElement.classList.toggle('dark-mode')
 })
 
-function change() // no ';' here
+function change1() // no ';' here
 {
     var elem = document.getElementById("button-3");
     if (elem.value=="Dark mode") elem.value = "Light mode";
     else elem.value = "Dark mode";
+}
+
+function change() // no ';' here
+{
+    var elems = document.getElementById("Myid1");
+    if (elems.value=="Show Countdown") elems.value = "Hide Countdown";
+    else elems.value = "Show Countdown";
 }
 
