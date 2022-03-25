@@ -82,7 +82,7 @@ background: linear-gradient(to top, #E2E2E2, #C9D6FF);  */
   margin-bottom: 1rem;
 }
 
-.header .countdown  h1 {
+.header .countdown  h2 {
   margin-bottom: 0.875rem;
   margin-top: 0.5rem;
   color: #0499f2;
@@ -90,7 +90,7 @@ background: linear-gradient(to top, #E2E2E2, #C9D6FF);  */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 5px 5px 7px #ffffff83;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .header .p-large {
