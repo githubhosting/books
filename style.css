@@ -96,7 +96,8 @@ html {
 }
 
 body {
-  background: #ecf0f3;
+  /* background: hsl(206, 23%, 94%); */
+  background: hsl(215, 46%, 93%);
   font-family: "Montserrat", sans-serif;
   width: 100%;
   min-height: 100vh;
@@ -251,6 +252,12 @@ body {
 }
 
 .section-title {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.section-footing {
+  width: 100%;
   border-top: #0d1013 1px solid;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -279,6 +286,7 @@ body {
   color: #556270;
 }
 .main-team-subheading1 {
+  width: 100%;
   text-align: center;
   /* border-top: 0.1rem solid rgb(0, 0, 0); */
   font-size: 15px;
@@ -397,16 +405,17 @@ button:after {
   position: relative;
   text-align: center;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   margin: 16px;
   padding: 0.6rem 1rem;
   font-size: 18px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-white-3);
   background: linear-gradient(-45deg, #338aff, #3cf0c5);
   /* background: linear-gradient(-60deg, #004e92,  #338aff, #185a9d); */
-  background-size: 600%;
+  background-size: 300%;
   -webkit-animation: anime 6s linear infinite;
   animation: anime 6s linear infinite;
 }
@@ -420,6 +429,7 @@ button:after {
 }
 a:hover {
   text-decoration: none;
+  color: #002a8f;
 }
 @-webkit-keyframes anime {
   0% {
@@ -457,7 +467,7 @@ a:hover {
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 .button1::after {
   content: "\f077";
