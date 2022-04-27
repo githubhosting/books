@@ -31,24 +31,24 @@ function change1() {
   else elem.value = "Dark mode";
 }
 
-function change() {
-  // no ';' here
-  var elems = document.getElementById("Myid1");
-  if (elems.value == "Show Countdown") elems.value = "Hide Countdown";
-  else elems.value = "Show Countdown";
-}
+// function change() {
+//   // no ';' here
+//   var elems = document.getElementById("Myid");
+//   if (elems.value == "Show Countdown") elems.value = "Hide Countdown";
+//   else elems.value = "Show Countdown";
+// }
 
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
-  duration: 1000,
+  duration: 900,
   reset: true,
 });
 
 sr.reveal(".container", { delay: 50 });
-sr.reveal(".btn", { distance: "20px", delay: 50, interval: 90 });
+sr.reveal(".btn", { distance: "15px", delay: 50, interval: 80 });
 
-sr.reveal(".card", { delay: 50, interval: 100, reset: false });
+sr.reveal(".card", { distance: "10px", delay: 60, interval: 80, reset: false });
 sr.reveal(".quote", { distance: "10px", delay: 100 });
 sr.reveal(".notice", { distance: "10px", delay: 150 });
