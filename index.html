@@ -35,16 +35,17 @@
         <header id="header" class="header">
 
 
-            <input type="button" class="button-4" onclick="toggleText()" onclick="change1()" id="Myid1"
-                value="Show Countdown"></input>
+            <input onclick="change()" type="button" value="Show Countdown" class="button-4" onclick="toggleText()"
+                id="Myid1"></input>
             <div id="Myid">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="text-container">
 
                             <div class="countdown">
-                                <h2>Sorry, Ramaiah is Unpredictable!</h2>
                                 <span id="clock"></span>
+                                <h2>For Sem End Examinations</h2>
+
                             </div> <!-- end of countdown -->
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
@@ -59,6 +60,20 @@
                     } else {
                         x.style.display = "none";
                     }
+                }
+                function change() {
+                    // no ';' here
+                    document.getElementById("Myid").style.display = "none";
+                    var y = document.getElementById("Myid");
+                    if (y.style.display === "none") {
+                        y.style.display = "block";
+                    } else {
+                        y.style.display = "none";
+                    }
+                    var x = document.getElementById("Myid1");
+                    // var elems = document.getElementById("Myid");
+                    if (x.value == "Show Countdown") x.value = "Refresh to Close";
+                    else x.value = "Refresh to Close";
                 }
             </script>
 
