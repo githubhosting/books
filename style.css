@@ -96,12 +96,11 @@ html {
 }
 
 body {
-  /* background: hsl(206, 23%, 94%); */
   background: hsl(215, 46%, 93%);
   font-family: "Montserrat", sans-serif;
   width: 100%;
   min-height: 100vh;
-  color: #1b1c34;
+  color: rgb(17 24 39);
   display: flex;
   align-items: center;
 }
@@ -118,9 +117,9 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4%;
   margin-top: 7%;
-    margin-right: 0px;
-    margin-bottom: 3%;
-    margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 3%;
+  margin-left: 0px;
 }
 
 .card {
@@ -358,6 +357,7 @@ button {
   margin: 2em auto;
   display: block;
   -webkit-appearance: none;
+  appearance: none;
   border: 6px solid rgba(255, 255, 255, 0.45);
   border-radius: 50px;
   padding: 1em 3em;
